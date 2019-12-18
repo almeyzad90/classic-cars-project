@@ -1,0 +1,137 @@
+html,
+body {
+margin: 0%;
+padding: 0%;
+}
+
+/* navicaton */
+
+.navbar{
+position: fixed;
+width: 100%;z-index: 1;
+
+}
+
+              /* showcase*/
+ .card1 {
+width: 100%;
+
+}
+
+.card1 p {
+text-align: center;
+padding-top: 100px;
+font-family: 'Cabin Sketch', cursive;
+font-size: 70px;
+width: 100%;
+color: #13646b
+}
+.card1 h1 {
+text-align: center;
+padding-top: 100px;
+font-family: 'Cabin Sketch', cursive;
+font-size: 100px;
+width: 100%;
+color: #13646b
+}
+
+
+
+       /* Engines */
+.col-md-4 img{
+ height: 300px;}
+
+
+    /* grid section and icons */
+.section-a {
+padding: 30px 0;
+text-align: center;
+background: #0f545a;
+}
+.card-body1 p{
+font-family: 'Questrial',
+padding: 50px;
+}
+
+.section-a .container{
+font-family: 'Questrial', sans-serif;
+}
+
+.section-a .fa {
+font-size: 50px;
+padding: 20px
+}
+
+      /* cars library */
+
+.card h5 button{
+font-size: 25px;
+font-family: 'Questrial', sans-serif;
+}
+
+
+       /* submit section */
+
+.section-c {
+padding: 80px 0;
+text-align: center;
+background: #093f44;
+font-family: 'Questrial', sans-serif;
+
+}
+
+
+       /* footer*/
+
+footer {
+padding: 10px 0;
+background: #13646b;
+}
+
+
+
+         /* responcive */
+
+@media only screen and (max-width: 360px) {                       
+ .card1 p {
+padding-top: 40px;
+font-size: 15px;
+            
+}
+ .card1 h1 {
+padding-top: 60px;
+font-size: 15px;
+}
+            
+}
+ @media only screen and (min-width: 768px) {
+   
+.card1 p {
+padding-top: 70px;
+font-size: 40px;
+}
+
+.card1 h1 {
+padding-top: 70px;
+font-size: 60px;
+}
+            
+           
+}
+  
+@media only screen and (min-width: 1280px) {
+   
+.card1 p {
+padding-top: 100px;
+font-size: 70px;
+}
+
+.card1 h1 {
+padding-top: 100px;
+font-size: 100px;
+}
+                
+}
+
+
+ 
